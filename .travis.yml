@@ -6,6 +6,5 @@ env:
 install:
   - "pip install ."
 script: 
-  - "DEBUG=true octohat glasnt/octohat-rb"
-  - "python3 octohat.py glasnt/octohat -c -g -n"
-  - "cat glasnt_octohat_contrib.html"
+  - "python3 octohat.py sebsauvage/MinigalNano"
+  - "python octohat.py sebsauvage/MinigalNano"
