@@ -7,4 +7,6 @@ install:
   - "pip install ."
 script: 
   - "python3 octohat.py -g -c -n sebsauvage/MinigalNano"
+  - "cat sebsauvage_MinigalNano_contrib.html"
   - "python octohat.py -g -c -n sebsauvage/MinigalNano"
+  - "cat sebsauvage_MinigalNano_contrib.html"
