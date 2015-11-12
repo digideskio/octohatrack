@@ -6,5 +6,5 @@ env:
 install:
   - "pip install ."
 script: 
-  - "python3 octohat.py -g sebsauvage/MinigalNano"
-  - "python octohat.py -g sebsauvage/MinigalNano"
+  - "python3 octohat.py -g -c -n sebsauvage/MinigalNano"
+  - "python octohat.py -g -c -n sebsauvage/MinigalNano"
